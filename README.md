@@ -15,7 +15,7 @@ Based on the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Ja
 </p>
 
 <p>
-Translated to English and built upon from <a href="https://github.com/midudev/minimalist-portfolio-json">, 
+Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Miguel Ángel Durán</a>
 </p>
 
 </div>
