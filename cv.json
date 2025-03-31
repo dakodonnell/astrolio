@@ -1,0 +1,181 @@
+{
+  "basics": {
+    "name": "Daniel Kent-O'Donnell",
+    "label": "Geophysics Graduate",
+    "picture": "https://example.com/photo.jpg",
+    "email": "dakodonnell@gmail.com",
+    "phone": "(403) 401-3216",
+    "website": "https://dakodonnell.com",
+    "summary": "Looking for work in Geoscience.",
+    "location": {
+      "address": "",
+      "postalCode": "T4B 2H3",
+      "city": "Airdrie",
+      "countryCode": "CA",
+      "region": "Alberta"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "dakodonnell",
+        "url": "https://www.linkedin.com/in/dakodonnell"
+      },
+      {
+        "network": "GitHub",
+        "username": "dakodonnell",
+        "url": "https://github.com/dakodonnell"
+      }
+    ],
+    "url": "https://dakodonnell.com"
+  },
+  "work": [
+    {
+      "name": "Best Western Port O'Call Hotel",
+      "position": "Purchasing Manager",
+      "url": "https://bwportocallhotel.com",
+      "startDate": "2018-11-01",
+      "endDate": null,
+      "summary": "Managed procurement operations, supplier negotiations, and cost optimization.",
+      "highlights": [
+        "Implemented a new vendor management system, reducing redundant administrative work and improving cost reporting.",
+        "Automated food and liquor costing, completely eliminating the need for manual data entry in cost reporting.",
+        "Consolidated food suppliers, leveraging competition to lower prices and secure back-end rebates.",
+        "Streamlined just-in-time deliveries to reduce overhead by 20%."
+      ]
+    },
+    {
+      "name": "Deco Windshield Repair",
+      "position": "Assistant Manager",
+      "url": "https://decorepair.com",
+      "startDate": "2017-04-15",
+      "endDate": "2018-11-01",
+      "summary": "Managed the team, assisted with city-wide tech support.",
+      "highlights": [
+      ]
+    },
+    {
+      "name": "University of Calgary - Faculty of Science",
+      "position": "Research Assistant",
+      "url": "https://science.ucalgary.ca",
+      "startDate": "2016-04-30",
+      "endDate": "2016-08-31",
+      "summary": "Created open-source Python module for use in field school.",
+      "highlights": [
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "name": "Experience Church",
+      "position": "Videographer",
+      "url": "https://experiencechurch.ca",
+      "startDate": "2020-03-01",
+      "summary": "Filmed and produced live church services for livestreaming and social media.",
+      "highlights": [
+        "Telling the story of Christ in creative and future forward ways."
+      ]
+    },
+    {
+      "name": "Geophysics Undergraduate Student Society",
+      "position": "Vice President of Events",
+      "startDate": "2016-06-01",
+      "endDate": "2017-07-01",
+      "summary": "Organized events, and facilitated student society affairs along with the other executive members.",
+      "highlights": [
+        "Liasoned with APEGA, CSEG, SEG, and U of C faculty."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Calgary",
+      "area": "Geophysics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2013-09-07",
+      "endDate": "2018-06-15",
+      "gpa": "",
+      "courses": [
+      "Independent Study - Undergraduate Research Thesis",
+        "Advanced Seismic Data Processing - Thrust Belt Imaging"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "3D Seismic Aquisition Design",
+      "date": "2017-03-01",
+      "issuer": "Society of Exploration Geophysics (SEG) - Andreas Cordsen"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Investigating the utility of airborne electromagnetic surveys for mapping local and regional hydrogeology in the Edmonton-Calgary corridor",
+      "publisher": "International Association of Hydrogeologists (IAG) - Regional Groundwater Conference Paper",
+      "releaseDate": "2017-06-26",
+      "website": "https://scientificamerican.com",
+      "summary": "Airborne magnetic and electromagnetic (EM) data were collected between 2007 and 2010 as part of a large-scale \nmapping program designed to better characterize subsurface lithology in the Edmonton-Calgary corridor (ECC). ",
+      "url": "https://www.researchgate.net/publication/317318202_Investigating_the_utility_of_airborne_electromagnetic_surveys_for_mapping_local_and_regional_hydrogeology_in_the_Edmonton-Calgary_corridor"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Proficient",
+      "keywords": [
+        "Python",
+        "Java",
+        "Julia"
+      ]
+    },
+    {
+      "name": "Videography",
+      "level": "Expert",
+      "keywords": [
+        "Broadcast Video",
+        "Event Video",
+        "Wedding Video"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source",
+      "keywords": [
+        "Science",
+        "Research Development",
+        "Education"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Naushad Kanji",
+      "reference": "Upon request."
+    },
+    {
+      "name": "Riley Murray",
+      "reference": "Upon request."
+    }
+  ],
+  "projects": [
+    {
+      "name": "SimPEG",
+      "isActive": true,
+      "description": "Simulation and Parameter Estimation in Geophysics",
+      "highlights": [
+        "Open source",
+        "Forward simulations",
+        "Inverse problems",
+        "Geoscience"
+      ],
+      "url": "https://simpeg.xyz/",
+      "github": "https://github.com/simpeg"
+    }
+  ]
+}
