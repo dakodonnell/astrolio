@@ -18,8 +18,8 @@ Based on the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Ja
 </div>
 
 <div align="center">
-    <a href="#🚀-empezar">
-        Empezar
+    <a href="#🚀-get started">
+        Get Started
     </a>
     <span>&nbsp;✦&nbsp;</span>
     <a href="#🧞-commands">
@@ -59,10 +59,20 @@ Based on the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Ja
 
 ## 🚀 Begin
 
+### 0. Ensure you have the proper dev tools
+
+- For Astro to run on your system, you will also need to have Node.js installed, version `v18.17.1` or `v20.3.0` or later. (`v19` is not supported.)
+
+```bash
+# Check if you already have a compatible version of Node.js installed
+node -v
+```
+
+- If the command returns a version number higher than `v18.17.1` or `v20.3.0` (excluding any `v19`), you’re good to go!
+
+- If the command returns an error message like `Command 'node' not found`, or a version number lower than the required, then you need to [install a compatible Node.js version.](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 ### 1. Use this [repo](https://github.com/dakodonnell/minimal-portfolio) as a _template_ for an Astro project
-
-
-- Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
 
 ```bash
 # Initialize the project
@@ -71,13 +81,13 @@ npm create astro@latest -- --template dakodonnell/minimal-portfolio
 
 ### 2. Add your content:
 Edit the file to create your own printable Portfolio/CV.`cv.json`
+
 ### 3. Launch the development server:
 
 ```bash
 # Enjoy the result
 npm run dev
 ```
-
 
 1. Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see the result 🚀
 
