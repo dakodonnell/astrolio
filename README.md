@@ -12,7 +12,10 @@ JSON resume schema: <a href="https://jsonresume.org/schema/">jsonresume.org</a>
 
 <p>
 Based on the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
+</p>
 
+<p>
+Translated to English and built upon from <a href="https://github.com/midudev/minimalist-portfolio-json">, 
 </p>
 
 </div>
@@ -33,7 +36,6 @@ Based on the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Ja
     <a href="https://dakodonnell.com">
         Personal
     </a>
-   
 </div>
 
 <p></p>
