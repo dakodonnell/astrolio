@@ -87,7 +87,7 @@ Edit the file to create your own printable Portfolio/CV.`cv.json`
 ### 3. Launch the development server:
 
 ```bash
-# Enjoy the result
+# See the result
 npm run dev
 ```
 
@@ -106,7 +106,7 @@ npm run dev
 
 ## 🔑 Licence
 
-[MIT](LICENSE.txt) - Created by [**dakodonnell**](https://dakodonnell.com).
+[MIT](LICENSE.txt) - I stood on the shoulders of giants. So should you.
 
 
 
