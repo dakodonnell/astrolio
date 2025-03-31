@@ -6,7 +6,7 @@
     Minimalist resume template for pdf and web
 </h2>
 <p>
-<a href="https://jsonresume.org/schema/">jsonresume.org</a> JSON resume schema
+JSON resume schema: <a href="https://jsonresume.org/schema/">jsonresume.org</a>
 </p>
 
 
