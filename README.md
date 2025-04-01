@@ -60,7 +60,7 @@ A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV wit
 - [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Drop-down menu with keyboard shortcuts made in pure Javascript (optional).
 
 
-##Get Started
+#Get Started
 
 ### 0. Ensure you have the proper dev tools  🚀 
 
