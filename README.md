@@ -24,7 +24,7 @@ A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV wit
 </div>
 
 <div align="center">
-    [Get Started](#🚀-get-started)
+    [Get Started](#🚀-Get-Started)
     <span>&nbsp;✦&nbsp;</span>
     <a href="#🧞-commands">
         Commands
@@ -60,7 +60,7 @@ A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV wit
 - [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Drop-down menu with keyboard shortcuts made in pure Javascript (optional).
 
 
-## 🚀 Begin
+## 🚀 Get Started
 
 ### 0. Ensure you have the proper dev tools
 
