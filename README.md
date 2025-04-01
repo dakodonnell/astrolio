@@ -91,6 +91,13 @@ Add your Portfolio/CV to the template.
 - Edit and rename the provided `cv_template.json`, or use a 
 [builder](https://jsoncv.reorx.com)
 
+Helpful tip: Add _isActive_ and _GitHub_ attributes to your projects section in your JSON Resume.
+
+```
+"isActive": true,
+"GitHub": "https://github.com/GitHubUsername/GitHubRepo"
+```
+
 ### 3. Launch the development server:
 
 ```bash
