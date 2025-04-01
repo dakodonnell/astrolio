@@ -24,7 +24,7 @@ A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV wit
 </div>
 
 <div align="center">
-    [🚀 Get Started](#🚀-get-started)
+    [Get Started](#get-started)
     <span>&nbsp;✦&nbsp;</span>
     <a href="#🧞-commands">
         Commands
@@ -60,9 +60,9 @@ A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV wit
 - [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Drop-down menu with keyboard shortcuts made in pure Javascript (optional).
 
 
-##🚀 Get Started
+##Get Started
 
-### 0. Ensure you have the proper dev tools 
+### 0. Ensure you have the proper dev tools  🚀 
 
 - For Astro to run on your system, you will also need to have Node.js installed, version `v18.17.1` or `v20.3.0` or later. (`v19` is not supported.)
 
