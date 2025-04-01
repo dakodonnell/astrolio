@@ -316,7 +316,6 @@
       "isActive": true,
       "description": "Created a personal website showcasing my work and skills.",
       "highlights": [
-        "Built with the minimal-portfolio template",
         "Responsive design using Astro, Typescript, and Ninja Keys",
         "Integrated with GitHub API to display projects",
         "Employed the JSON Resume format for easy updates"
