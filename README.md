@@ -98,8 +98,7 @@ Add your Portfolio/CV to the template.
 npm run dev
 ```
 
-1. Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see the result 🚀
-
+- Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see the result 🚀
 
 ## 🧞 Commands
 
