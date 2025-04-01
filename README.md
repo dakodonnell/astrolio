@@ -18,7 +18,7 @@ Based on the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Ja
 Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Miguel Ángel Durán</a>
 </p>
 <p>
-<a href="https://github.com/reorx/jsoncv">A toolkit for building your CV with JSON</a>
+A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV with JSON
 </p>
 
 </div>
