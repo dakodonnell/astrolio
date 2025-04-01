@@ -9,7 +9,7 @@ import { projects } from "@cv"
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ url, description, highlights = [], name, isActive = false, github = "" }) => {
           return (
             <li>
               <article>

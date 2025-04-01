@@ -17,6 +17,9 @@ Based on the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Ja
 <p>
 Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Miguel Ángel Durán</a>
 </p>
+<p>
+<a href="https://github.com/reorx/jsoncv">A toolkit for building your CV with JSON</a>
+</p>
 
 </div>
 
@@ -82,7 +85,11 @@ npm create astro@latest -- --template dakodonnell/minimal-portfolio
 ```
 
 ### 2. Add your content:
-Edit the file to create your own printable Portfolio/CV.`cv.json`
+Add your Portfolio/CV to the template.
+- The file for the printable Portfolio/CV must be named `cv.json` and located in the `src` folder
+- The file `cv.json` must follow the JSON Resume [schema](https://jsonresume.org/schema) 
+- Edit and rename the provided `cv_template.json`, or use a 
+[builder](https://jsoncv.reorx.com)
 
 ### 3. Launch the development server:
 
