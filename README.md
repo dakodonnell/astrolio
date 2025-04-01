@@ -24,16 +24,16 @@ A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV wit
 </div>
 
 <div align="center">
-    <a href="#🚀-get-started">
-        Get Started
+    <a href="#-get-started">
+        🚀 Get Started
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#🧞-commands">
-        Commands
+    <a href="#-commands">
+        🧞 Commands
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#🔑-license">
-        License
+    <a href="#-license">
+        🔑 License
     </a>
     <span>&nbsp;✦&nbsp;</span>
     <a href="https://dakodonnell.com">
