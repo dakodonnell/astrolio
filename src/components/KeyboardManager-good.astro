@@ -4,7 +4,7 @@ import 'hotkeypad/index.css'
 import { type SocialIcon } from "@/types"
 import { basics } from "@cv"
 
-const { profiles, url: basicsURL } = basics
+const { profiles } = basics
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub: `<svg
@@ -39,23 +39,12 @@ const SOCIAL_ICONS: SocialIcon = {
     fill="currentColor"
     d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
   ></path></svg
-  >`,
-  Website: `<svg
-  width="16"
-  height="16"
-  viewBox="0 0 24 24"
-  xmlns="http://www.w3.org/2000/svg"
-  style="margin-right: 8px"
-  ><title>X</title><path
-    fill="currentColor"
-    d="M12 2a10 10 0 1 0 10 10A10.013 10.013 0 0 0 12 2Zm5 10a13.6 13.6 0 0 1-.29 2.91 11.5 11.5 0 0 1-2.27-.91 17.4 17.4 0 0 0 .5-3.59h2.06c.01.53.02 1.05.02 1.59Zm-2.75-3.58a11.5 11.5 0 0 0-.5-3.59A9.47 9.47 0 0 1 16.71 8H14.2Zm-2.18-4.86a15.3 15.3 0 0 1 1.5 4.86H10.5a15.3 15.3 0 0 1 1.5-4.86ZM7.29 8a9.47 9.47 0 0 1 2.95-3.58 11.5 11.5 0 0 0-.5 3.59Zm-.29 3h2.06a17.4 17.4 0 0 0 .5 3.59 11.5 11.5 0 0 1-2.27.91A13.6 13.6 0 0 1 7 12c0-.54.01-1.06.02-1.59Zm2.24 4.68a17.3 17.3 0 0 0 2.18 4.86 17.3 17.3 0 0 0 2.18-4.86 13.7 13.7 0 0 1-2.18-.24 13.7 13.7 0 0 1-2.18.24Zm5.76-.1a9.47 9.47 0 0 1-2.95 3.58 11.5 11.5 0 0 0 .5-3.59Zm-7.29 0a11.5 11.5 0 0 0 .5 3.59A9.47 9.47 0 0 1 7.29 16ZM12 22a10 10 0 0 1-10-10A10 10 0 0 1 12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10Z"
-  ></path></svg
   >
   `
 }
 
 const profilesInfo = profiles.map(({ network, url }) => {
-  const icon = SOCIAL_ICONS[network] || SOCIAL_ICONS.Website
+  const icon = SOCIAL_ICONS[network]
   const firstLetter = network[0].toUpperCase()
 
   return {
@@ -66,27 +55,6 @@ const profilesInfo = profiles.map(({ network, url }) => {
     icon,
     hotkey: `ctrl+${firstLetter}`
   }
-})
-
-if (basicsURL) {
-  profilesInfo.push({
-    id: "personal-url",
-    section: "Website",
-    title: "Visit Personal Website",
-    url: basicsURL,
-    icon: SOCIAL_ICONS.Website,
-    hotkey: "ctrl+Y"
-  });
-}
-
-// Shameless plug for the template, delete this block at your own leisure
-profilesInfo.push({
-  id: "Template Plug",
-  section: "Tools",
-  title: "Build your own Minimal Portfolio Site",
-  url: "https://github.com/dakodonnell/minimal-portfolio",
-  icon: SOCIAL_ICONS.GitHub,
-  hotkey: "ctrl+M"
 })
 ---
 
