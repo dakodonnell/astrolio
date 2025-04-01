@@ -24,7 +24,7 @@ A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV wit
 </div>
 
 <div align="center">
-    [Get Started](#🚀-Get-Started)
+    [Get Started](#get-started)
     <span>&nbsp;✦&nbsp;</span>
     <a href="#🧞-commands">
         Commands
