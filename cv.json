@@ -5,7 +5,7 @@
       "email": "johndoe@example.com",
       "phone": "+1 234 567 890",
       "url": "https://johndoe.dev",
-      "picture": "/me.webp",
+      "picture": "/profile.jpg",
       "summary": "Passionate developer with 5+ years of experience in building web applications.",
       "location": {
         "address": "",

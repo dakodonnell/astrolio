@@ -80,7 +80,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       </footer>
     </div>
     <figure>
-      <img src={picture} alt={name} />
+      {picture && <img src={picture} alt={name} />}
     </figure>
   </div>
 </Section>
