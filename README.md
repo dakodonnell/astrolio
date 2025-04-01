@@ -37,7 +37,7 @@ A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV wit
     </a>
     <span>&nbsp;✦&nbsp;</span>
     <a href="https://dakodonnell.com">
-        Personal
+        🔗 Personal
     </a>
 </div>
 
@@ -110,7 +110,7 @@ npm run dev
 
 
 
-## 🔑 Licence
+## 🔑 License
 
 [MIT](LICENSE.txt) - I stood on the shoulders of giants. So should you.
 
