@@ -46,12 +46,17 @@ Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Migue
 ![GitHub issues](https://img.shields.io/github/issues/dakodonnell/astrolio)
 ![GitHub forks](https://img.shields.io/github/forks/dakodonnell/astrolio)
 ![GitHub PRs](https://img.shields.io/github/issues-pr/dakodonnell/astrolio)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dakodonnell/astrolio)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdakodonnell%2Fastrolio)
+
+
 
 </div>
 
 <img src="astrolio-demo.png"></img>
+
+## 🗿 Quickstart 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dakodonnell/astrolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdakodonnell%2Fastrolio)
+
 
 ## 🛠️ Stack
 
