@@ -32,7 +32,7 @@ Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Migue
     </a>
     <span>&nbsp;✦&nbsp;</span>
     <a href="https://dakodonnell.com">
-        🔗 Personal
+        🔗 Author
     </a>
 </div>
 
