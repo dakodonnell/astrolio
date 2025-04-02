@@ -73,7 +73,7 @@ node -v
 
 - If the command returns an error message like `Command 'node' not found`, or a version number lower than the required, then you need to [install a compatible Node.js version.](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-### 1. Use this [repo](https://github.com/dakodonnell/astrolio) as a _template_ for an Astro project:
+### 1. Use this repo as a _template_ for an Astro project:
 
 - Using the command line:
 ```bash
@@ -113,7 +113,7 @@ Connect your portfolio repo to a platform that deploys static web applications (
 
 ## 🧞 Commands
 
-Printing/saving your portolio to PDF can be done via the site command menu, which also contains links from your JSON resume.
+Saving your portolio to PDF can be done via the site command menu, which also contains links from your JSON resume.
 
 |      |       |
 |------|-------|
