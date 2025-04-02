@@ -1,16 +1,12 @@
 <div align="center">
 <img src="astrolio-logo.png" height="90px" width="auto" />
 <h1>
-    <p>ASTROLIO: A responsive one-page Astro template for your portfolio.</p>
-    <p></p>
+    ASTROLIO: A responsive one-page Astro template for your portfolio.
 </h1>
-<h2>
     
-</h2>
 <p>
 JSON resume schema: <a href="https://jsonresume.org/schema/">jsonresume.org</a>
 </p>
-
 
 <p>
 Based on the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
