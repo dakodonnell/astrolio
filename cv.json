@@ -124,7 +124,7 @@
         "description": "A personal website showcasing my work and skills.",
         "isActive": true,
         "highlights": [
-          "Built with the minimal-portfolio template",
+          "Built with love using the Astrolio template",
           "Responsive design using Astro, Typescript, and Ninja Keys",
           "Integrated with GitHub API to display projects",
           "Employed the JSON Resume format for easy updates"
