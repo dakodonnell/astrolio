@@ -3,7 +3,7 @@
 <div align="center">
 <img src="logo.png" height="90px" width="auto" /> 
 <h2>
-    Minimalist Astro resume template for pdf and web
+    Minimalist resume template for pdf and web
 </h2>
 <p>
 JSON resume schema: <a href="https://jsonresume.org/schema/">jsonresume.org</a>
