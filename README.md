@@ -2,7 +2,7 @@
 <img src="astrolio-logo.png" height="90px" width="auto" />
 <h1>
     ASTROLIO
-    A responsive portfolio
+    A responsive, lightweight portfolio template for pdf and web
 </h1>
 <h2>
     A responsive, minimalist portfolio template for pdf and web
@@ -111,11 +111,15 @@ npm run dev
 
 - Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see the result 🚀
 
-- If you wish to deploy your portfolio site to the web, continue to [step 4](#4)
+- If you wish to deploy your portfolio site to the web, continue to [step 4](#4-deploy-the-site-on-the-web)
 
-### 4. Deploy the site to the web:
+### 4. Deploy your portfolio site on the web:
 
-Use a static we
+- Connect your portfolio repo to a platform that deploys static web applications
+
+-- [Netlify](https://netlify.com) or [Vercel](https://vercel.com) are good options
+
+
 
 ## 🧞 Commands
 
