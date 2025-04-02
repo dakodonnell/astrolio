@@ -49,7 +49,7 @@ Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Migue
 
 </div>
 
-<img src="portada.png"></img>
+<img src="astrolio-demo.png"></img>
 
 ## 🛠️ Stack
 
