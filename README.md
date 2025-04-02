@@ -86,11 +86,11 @@ npm create astro@latest -- --template dakodonnell/astrolio
 - Or, simply clone as a template from Github
 
 ### 2. Add your content:
-Add your Portfolio/CV to the template.
+Add your Portfolio/CV to the template
 - The file for the printable Portfolio/CV must be named `cv.json` and located in the `src` folder
 - The file `cv.json` must follow the JSON Resume [schema](https://jsonresume.org/schema) 
-- Edit and rename the provided `cv_template.json`, or use a 
-[builder](https://jsoncv.reorx.com)
+- A sample JSON resume used in the demo is provided in the template repo, which can be edited for your use, or replaced by your own JSON resume
+- JSON resumes can be built with the official registry [editor](https://registry.jsonresume.org/editor), but this [tookkit](https://jsoncv.reorx.com) works pretty well too
 
 (Helpful tip: Add _isActive_ and _GitHub_ attributes to your projects section in your JSON Resume.)
 ```
