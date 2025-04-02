@@ -113,11 +113,11 @@ Connect your portfolio repo to a platform that deploys static web applications (
 
 ## 🧞 Site Commands
 
-Saving your portolio to PDF can be done via the site command menu, which also contains links from your JSON resume.
+Saving your portolio to PDF can be done via the site command palette, which also contains links from your JSON resume.
 
 |      |       |
 |------|-------|
-| Relevant links are automatically added to the site command menu, accessed with `cmd+k`| ![Command menu demo](cmdmenu-demo.png) |
+| Relevant links are automatically added to the site command palette, accessed with `cmd+k`| ![Command menu demo](cmdmenu-demo.png) |
 
 ## 🔑 License
 
