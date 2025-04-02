@@ -113,7 +113,7 @@ Connect your portfolio repo to a platform that deploys static web applications (
 
 - If you know what you're doing, you can directly deploy from here:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dakodonnell/astrolio) [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/zeit/now-examples/tree/master/nextjs)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dakodonnell/astrolio) [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/dakodonnell/astrolio)
 
 ## 🧞 Site Commands
 
