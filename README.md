@@ -23,8 +23,8 @@ Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Migue
         🚀 Get Started
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#-commands">
-        🧞 Commands
+    <a href="#-site-commands">
+        🧞 Site Commands
     </a>
     <span>&nbsp;✦&nbsp;</span>
     <a href="#-license">
@@ -73,7 +73,7 @@ node -v
 
 - If the command returns an error message like `Command 'node' not found`, or a version number lower than the required, then you need to [install a compatible Node.js version.](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-### 1. Use this [repo](https://github.com/dakodonnell/astrolio) as a _template_ for an Astro project:
+### 1. Use this repo as a _template_ for an Astro project:
 
 - Using the command line:
 ```bash
@@ -111,20 +111,13 @@ npm run dev
 
 Connect your portfolio repo to a platform that deploys static web applications ([Netlify](https://netlify.com) or [Vercel](https://vercel.com) are good options)
 
-| Text | Image |
+## 🧞 Site Commands
+
+You can print or save your portolio to PDF by accessing site command palette, which also contains social media and website links from your JSON resume.
+
+|      |       |
 |------|-------|
-| I'm a passionate dev focused on clean code and Astro. | ![Profile](cmdmenu-demo.png) |
-
-
-## 🧞 Commands
-
-|     | Command         | Action                                        |
-| :-- | :--------------- | :-------------------------------------------- |
-| ⚙️  | `dev` or `start` | Launch a local development server in `localhost:4321`.  |
-| ⚙️  | `build`          | Runs the build process checks for errors in the dist/ folder. `./dist/`.      |
-| ⚙️  | `preview`        | Preview the local site `localhost:4321` |
-
-
+| Relevant links are automatically added to the site command palette, accessed with `cmd+k`| ![Command menu demo](cmdmenu-demo.png) |
 
 ## 🔑 License
 
