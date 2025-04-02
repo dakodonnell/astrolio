@@ -119,5 +119,5 @@ You can print or save your portolio to PDF by accessing site command palette, wh
 
 - [Bartosz Jarocki](https://github.com/BartoszJarocki/cv), for inspiring the project
 
-- [Miguel Ángel Durán](https://github.com/midudev/minimalist-portfolio-json), for letting me stand on your shoulders
+- [Miguel Ángel Durán](https://github.com/midudev/minimalist-portfolio-json), for the shoulders I stand on
 
