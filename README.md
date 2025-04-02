@@ -1,8 +1,8 @@
 <div align="center">
 <img src="astrolio-logo.png" height="90px" width="auto" />
 <h1>
-    <p>ASTROLIO</p>
-    <p>A responsive one-page Astro template for your portfolio.</p>
+    <p>ASTROLIO: A responsive one-page Astro template for your portfolio.</p>
+    <p></p>
 </h1>
 <h2>
     
