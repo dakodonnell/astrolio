@@ -2,6 +2,7 @@
 <img src="astrolio-logo.png" height="90px" width="auto" />
 <h1>
     ASTROLIO
+    A responsive portfolio
 </h1>
 <h2>
     A responsive, minimalist portfolio template for pdf and web
@@ -81,10 +82,12 @@ node -v
 
 ### 1. Use this [repo](https://github.com/dakodonnell/astrolio) as a _template_ for an Astro project
 
+- Using the command line:
 ```bash
 # Initialize the project
 npm create astro@latest -- --template dakodonnell/astrolio
 ```
+- Or, simply clone as a template from Github
 
 ### 2. Add your content:
 Add your Portfolio/CV to the template.
@@ -108,6 +111,12 @@ npm run dev
 
 - Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see the result 🚀
 
+- If you wish to deploy your portfolio site to the web, continue to [step 4](#4)
+
+### 4. Deploy the site to the web:
+
+Use a static we
+
 ## 🧞 Commands
 
 |     | Command         | Action                                        |
@@ -120,7 +129,4 @@ npm run dev
 
 ## 🔑 License
 
-[MIT](LICENSE.txt) - I stood on the shoulders of giants. So should you.
-
-
-
+[MIT](LICENSE.txt) - Go crazy.
