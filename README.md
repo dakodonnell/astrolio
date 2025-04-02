@@ -111,20 +111,13 @@ npm run dev
 
 Connect your portfolio repo to a platform that deploys static web applications ([Netlify](https://netlify.com) or [Vercel](https://vercel.com) are good options)
 
+## 🧞 Commands
+
+Printing/saving your portolio to PDF can be done through the site command menu, which also contains relevant links sourced from your JSON resume.
+
 |      |       |
 |------|-------|
 | Social links and personal URL are automatically added to the site command menu, accessed with `cmd+k`| ![Command menu demo](cmdmenu-demo.png) |
-
-
-## 🧞 Commands
-
-|     | Command         | Action                                        |
-| :-- | :--------------- | :-------------------------------------------- |
-| ⚙️  | `dev` or `start` | Launch a local development server in `localhost:4321`.  |
-| ⚙️  | `build`          | Runs the build process checks for errors in the dist/ folder. `./dist/`.      |
-| ⚙️  | `preview`        | Preview the local site `localhost:4321` |
-
-
 
 ## 🔑 License
 
