@@ -111,7 +111,7 @@ npm run dev
 
 Connect your portfolio repo to a platform that deploys static web applications ([Netlify](https://netlify.com) or [Vercel](https://vercel.com) are good options)
 
-
+|      |       |
 |------|-------|
 | Social links and personal URL are automatically added to the site command menu, accessed with `cmd+k`| ![Command menu demo](cmdmenu-demo.png) |
 
