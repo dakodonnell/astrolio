@@ -15,9 +15,6 @@ Based on the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Ja
 <p>
 Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Miguel Ángel Durán</a>
 </p>
-<p>
-A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV with JSON
-</p>
 
 </div>
 
@@ -63,7 +60,7 @@ A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV wit
 
 ## 🚀 Get Started
 
-### 0. Ensure you have the proper dev tools
+### 0. Ensure you have the proper dev tools:
 
 - For Astro to run on your system, you will also need to have Node.js installed, version `v18.17.1` or `v20.3.0` or later. (`v19` is not supported.)
 
@@ -76,7 +73,7 @@ node -v
 
 - If the command returns an error message like `Command 'node' not found`, or a version number lower than the required, then you need to [install a compatible Node.js version.](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-### 1. Use this [repo](https://github.com/dakodonnell/astrolio) as a _template_ for an Astro project
+### 1. Use this [repo](https://github.com/dakodonnell/astrolio) as a _template_ for an Astro project:
 
 - Using the command line:
 ```bash
@@ -88,9 +85,10 @@ npm create astro@latest -- --template dakodonnell/astrolio
 ### 2. Add your content:
 Add your Portfolio/CV to the template
 - The file for the printable Portfolio/CV must be named `cv.json` and located in the `src` folder
-- The file `cv.json` must follow the JSON Resume [schema](https://jsonresume.org/schema) 
+- The file `cv.json` must follow the JSON Resume [schema](https://jsonresume.org/schema) . Visit h
 - A sample JSON resume used in the demo is provided in the template repo, which can be edited for your use, or replaced by your own JSON resume
-- JSON resumes can be built with the official registry [editor](https://registry.jsonresume.org/editor), but this [tookkit](https://jsoncv.reorx.com) works pretty well too
+- JSON resumes can be built with the official registry [editor](https://registry.jsonresume.org/editor), but this [toolkit](https://jsoncv.reorx.com) works pretty well too
+- Visit https://jsonresume.org/ for more information on JSON resumes
 
 (Helpful tip: Add _isActive_ and _GitHub_ attributes to your projects section in your JSON Resume.)
 ```
