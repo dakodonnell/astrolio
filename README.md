@@ -111,6 +111,11 @@ npm run dev
 
 Connect your portfolio repo to a platform that deploys static web applications ([Netlify](https://netlify.com) or [Vercel](https://vercel.com) are good options)
 
+| Text | Image |
+|------|-------|
+| I'm a passionate dev focused on clean code and Astro. | ![Profile](cmdmenu-demo.png) |
+
+
 ## 🧞 Commands
 
 |     | Command         | Action                                        |
