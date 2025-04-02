@@ -8,7 +8,7 @@ import { volunteer } from "@cv"
   <ul>
     {
       volunteer.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+        ({ name, startDate, endDate, position, summary, highlights=[], url }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Present"
