@@ -1,11 +1,11 @@
 <div align="center">
 <img src="astrolio-logo.png" height="90px" width="auto" />
 <h1>
-    ASTROLIO
-    A responsive, lightweight portfolio template for pdf and web
+    <p>ASTROLIO</p>
+    <p>A responsive one-page Astro template for your portfolio.</p>
 </h1>
 <h2>
-    A responsive, minimalist portfolio template for pdf and web
+    
 </h2>
 <p>
 JSON resume schema: <a href="https://jsonresume.org/schema/">jsonresume.org</a>
@@ -111,15 +111,11 @@ npm run dev
 
 - Open [**http://localhost:4321**](http://localhost:4321/) in your browser to see the result 🚀
 
-- If you wish to deploy your portfolio site to the web, continue to [step 4](#4-deploy-the-site-on-the-web)
+- If you wish to deploy your portfolio site to the web, continue to [step 4](#4-push-your-portfolio-to-the-web)
 
-### 4. Deploy your portfolio site on the web:
+### 4. Push your portfolio to the web:
 
-- Connect your portfolio repo to a platform that deploys static web applications
-
--- [Netlify](https://netlify.com) or [Vercel](https://vercel.com) are good options
-
-
+Connect your portfolio repo to a platform that deploys static web applications ([Netlify](https://netlify.com) or [Vercel](https://vercel.com) are good options)
 
 ## 🧞 Commands
 
