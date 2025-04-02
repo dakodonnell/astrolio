@@ -47,14 +47,9 @@ Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Migue
 ![GitHub forks](https://img.shields.io/github/forks/dakodonnell/astrolio)
 ![GitHub PRs](https://img.shields.io/github/issues-pr/dakodonnell/astrolio)
 
-
-
 </div>
 
 <img src="astrolio-demo.png"></img>
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dakodonnell/astrolio)[![Deploy with Vercel](https://vercel.com/button)] (https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdakodonnell%2Fastrolio) (not for the faint of heart)
-
 
 ## 🛠️ Stack
 
@@ -115,6 +110,9 @@ npm run dev
 ### 4. Push your portfolio to the web:
 
 Connect your portfolio repo to a platform that deploys static web applications ([Netlify](https://netlify.com) or [Vercel](https://vercel.com) are good options)
+
+- If you know what you're doing, you can directly deploy from here
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dakodonnell/astrolio) [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/zeit/now-examples/tree/master/nextjs)
 
 ## 🧞 Site Commands
 
