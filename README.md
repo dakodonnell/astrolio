@@ -110,6 +110,7 @@ npm run dev
 ### 4. Push your portfolio to the web:
 
 Connect your portfolio repo to a platform that deploys static web applications ([Netlify](https://netlify.com) or [Vercel](https://vercel.com) are good options)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dakodonnell/astrolio)
 
 ## 🧞 Site Commands
 
