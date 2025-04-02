@@ -53,9 +53,9 @@ Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Migue
 
 ## 🛠️ Stack
 
-- [**Astro**](https://astro.build/) - Web framework.
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with typed syntax.
-- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Drop-down menu with keyboard shortcuts made in pure Javascript (optional).
+- [**Astro**](https://astro.build/) - Web framework
+- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with typed syntax
+- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Drop-down menu with keyboard shortcuts made in pure Javascript
 
 
 ## 🚀 Get Started
@@ -80,7 +80,7 @@ node -v
 # Initialize the project
 npm create astro@latest -- --template dakodonnell/astrolio
 ```
-- Or, simply clone as a template from Github
+- Or, simply [clone](https://github.com/new?template_name=astrolio&template_owner=dakodonnell) as a template from Github
 
 ### 2. Add your content:
 Add your Portfolio/CV to the template
