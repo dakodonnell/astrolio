@@ -1,8 +1,10 @@
 <div align="center">
 <img src="astrolio-logo.png" height="90px" width="auto" />
-# Astrolio
+<h1>
+    ASTROLIO
+</h1>
 <h2>
-    Minimalist resume template for pdf and web
+    A responsive, minimalist portfolio template for pdf and web
 </h2>
 <p>
 JSON resume schema: <a href="https://jsonresume.org/schema/">jsonresume.org</a>
