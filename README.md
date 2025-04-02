@@ -3,7 +3,7 @@
 <div align="center">
 <img src="logo.png" height="90px" width="auto" /> 
 <h2>
-    Minimalist resume template for pdf and web
+    Minimalist Astro resume template for pdf and web
 </h2>
 <p>
 JSON resume schema: <a href="https://jsonresume.org/schema/">jsonresume.org</a>
@@ -46,10 +46,10 @@ A <a href="https://github.com/reorx/jsoncv">toolkit</a> for building your CV wit
 <div align="center">
 
 ![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/dakodonnell/minimal-portfolio)
-![GitHub issues](https://img.shields.io/github/issues/dakodonnell/minimal-portfolio)
-![GitHub forks](https://img.shields.io/github/forks/dakodonnell/minimal-portfolio)
-![GitHub PRs](https://img.shields.io/github/issues-pr/dakodonnell/minimal-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/dakodonnell/astrolio)
+![GitHub issues](https://img.shields.io/github/issues/dakodonnell/astrolio)
+![GitHub forks](https://img.shields.io/github/forks/dakodonnell/astrolio)
+![GitHub PRs](https://img.shields.io/github/issues-pr/dakodonnell/astrolio)
 
 </div>
 
@@ -77,11 +77,11 @@ node -v
 
 - If the command returns an error message like `Command 'node' not found`, or a version number lower than the required, then you need to [install a compatible Node.js version.](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-### 1. Use this [repo](https://github.com/dakodonnell/minimal-portfolio) as a _template_ for an Astro project
+### 1. Use this [repo](https://github.com/dakodonnell/astrolio) as a _template_ for an Astro project
 
 ```bash
 # Initialize the project
-npm create astro@latest -- --template dakodonnell/minimal-portfolio
+npm create astro@latest -- --template dakodonnell/astrolio
 ```
 
 ### 2. Add your content:
