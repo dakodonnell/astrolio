@@ -1,7 +1,7 @@
 
 
 <div align="center">
-<img src="logo.png" height="90px" width="auto" /> 
+<img src="astrolio-logo.png" height="90px" width="auto" /> 
 <h2>
     Minimalist resume template for pdf and web
 </h2>
