@@ -23,8 +23,8 @@ Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Migue
         🚀 Get Started
     </a>
     <span>&nbsp;✦&nbsp;</span>
-    <a href="#-commands">
-        🧞 Commands
+    <a href="#-site-commands">
+        🧞 Site Commands
     </a>
     <span>&nbsp;✦&nbsp;</span>
     <a href="#-license">
@@ -111,7 +111,7 @@ npm run dev
 
 Connect your portfolio repo to a platform that deploys static web applications ([Netlify](https://netlify.com) or [Vercel](https://vercel.com) are good options)
 
-## 🧞 Commands
+## 🧞 Site Commands
 
 Saving your portolio to PDF can be done via the site command menu, which also contains links from your JSON resume.
 
