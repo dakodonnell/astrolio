@@ -3,19 +3,6 @@
 <h1>
     ASTROLIO: A responsive one-page portfolio template
 </h1>
-    
-<p>
-JSON resume schema: <a href="https://jsonresume.org/schema/">jsonresume.org</a>
-</p>
-
-<p>
-Based on the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
-</p>
-
-<p>
-Inspired by <a href="https://github.com/midudev/minimalist-portfolio-json">Miguel Ángel Durán</a>
-</p>
-
 </div>
 
 <div align="center">
@@ -85,10 +72,9 @@ npm create astro@latest -- --template dakodonnell/astrolio
 ### 2. Add your content:
 Add your Portfolio/CV to the template
 - The file for the printable Portfolio/CV must be named `cv.json` and located in the `src` folder
-- The file `cv.json` must follow the JSON Resume [schema](https://jsonresume.org/schema) .
+- The file `cv.json` must follow the JSON Resume [schema](https://jsonresume.org/schema). More information can be found at https://jsonresume.org/
 - A sample JSON resume used in the demo is provided in the template repo, which can be edited for your use, or replaced by your own JSON resume
 - JSON resumes can be built with the official registry [editor](https://registry.jsonresume.org/editor), but this [toolkit](https://jsoncv.reorx.com) works pretty well too
-- Visit https://jsonresume.org/ for more information on JSON resumes
 
 (Helpful tip: Add _isActive_ and _GitHub_ attributes to your projects section in your JSON Resume.)
 ```
@@ -126,3 +112,12 @@ You can print or save your portolio to PDF by accessing site command palette, wh
 ## 🔑 License
 
 [MIT](LICENSE.txt) - Go crazy.
+
+## 🫂 Special Thanks
+
+- Melissa Turner, for her feedback and for being a delight
+
+- [Bartosz Jarocki]("https://github.com/BartoszJarocki/cv"), the inspiration for the project
+
+- [Miguel Ángel Durán}("https://github.com/midudev/minimalist-portfolio-json"), the shoulders I stood on
+
