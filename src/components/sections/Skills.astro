@@ -16,6 +16,7 @@ import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
+import AstroIcon from "@/icons/astro.astro"
 import Python from "@/icons/python.astro"
 import Julia from "@/icons/julia.astro"
 import Jupyter from "@/icons/jupyter.astro"
@@ -37,6 +38,8 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
+  AstroIcon,
+  Astro: AstroIcon,
   Python,
   Julia,
   Jupyter,
@@ -55,7 +58,7 @@ const SKILLS_ICONS: Record<string, any> = {
           <li class="skill-pill" tabindex="0" onclick="this.classList.toggle('active')">
             {Icon && <Icon class="icon" />}
             <span>{name}</span>
-            <span class="tooltip">{level}</span>
+            {level && <span class="tooltip">{level}</span>}
           </li>
         )
       })

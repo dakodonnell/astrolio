@@ -110,6 +110,11 @@
       "name": "GitHub",
       "level": "Expert",
       "keywords": ["Version Control", "Collaboration"]
+    },
+    {
+      "name": "Astro",
+      "level": "Proficient",
+      "keywords": ["Frontend", "Static Site Generation"]
     }
   ],
   "languages": [
