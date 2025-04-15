@@ -52,7 +52,7 @@ const SKILLS_ICONS: Record<string, any> = {
         const Icon = SKILLS_ICONS[iconName]
 
         return (
-          <a class="skill-pill" href="#">
+          <a class="skill-pill" href="javascript:void(0)" onclick="this.classList.toggle('active')">
             {Icon && <Icon class="icon" />}
             <span>{name}</span>
             <span class="tooltip">{level}</span>
@@ -115,7 +115,7 @@ const SKILLS_ICONS: Record<string, any> = {
     z-index: 10;
   }
 
-  .skill-pill:hover .tooltip {
+  .skill-pill.active .tooltip {
     opacity: 1;
   }
 
