@@ -55,7 +55,11 @@ const SKILLS_ICONS: Record<string, any> = {
         const Icon = SKILLS_ICONS[iconName]
 
         return (
-          <li class="skill-pill" tabindex="0" onclick="this.classList.toggle('active')">
+          <li
+            class="skill-pill"
+            tabindex="0"
+            onclick="this.classList.add('active'); setTimeout(() => this.classList.remove('active'), 1500)"
+          >
             {Icon && <Icon class="icon" />}
             <span>{name}</span>
             {level && <span class="tooltip">{level}</span>}
