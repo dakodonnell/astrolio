@@ -77,6 +77,11 @@
   ],
   "skills": [
     {
+      "name": "Astro",
+      "level": "Proficient",
+      "keywords": ["Frontend", "Static Site Generation"]
+    },
+    {
       "name": "HTML",
       "level": "Advanced",
       "keywords": ["JavaScript", "React", "Node.js"]
@@ -92,16 +97,6 @@
       "keywords": ["ES6", "Async/Await"]
     },
     {
-      "name": "React",
-      "level": "Proficient",
-      "keywords": ["Frontend", "Component-Based"]
-    },
-    {
-      "name": "Node.js",
-      "level": "Proficient",
-      "keywords": ["Backend", "API Development"]
-    },
-    {
       "name": "Git",
       "level": "Intermediate",
       "keywords": ["Version Control", "Collaboration"]
@@ -110,11 +105,6 @@
       "name": "GitHub",
       "level": "Expert",
       "keywords": ["Version Control", "Collaboration"]
-    },
-    {
-      "name": "Astro",
-      "level": "Proficient",
-      "keywords": ["Frontend", "Static Site Generation"]
     }
   ],
   "languages": [
