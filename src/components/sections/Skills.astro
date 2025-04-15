@@ -52,11 +52,11 @@ const SKILLS_ICONS: Record<string, any> = {
         const Icon = SKILLS_ICONS[iconName]
 
         return (
-          <a class="skill-pill" href="javascript:void(0)" onclick="this.classList.toggle('active')">
+          <li class="skill-pill" tabindex="0" onclick="this.classList.toggle('active')">
             {Icon && <Icon class="icon" />}
             <span>{name}</span>
             <span class="tooltip">{level}</span>
-          </a>
+          </li>
         )
       })
     }
