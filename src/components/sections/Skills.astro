@@ -52,7 +52,7 @@ const SKILLS_ICONS: Record<string, any> = {
         const Icon = SKILLS_ICONS[iconName]
 
         return (
-          <li tabindex="0">
+          <li onclick="void 0">
             {Icon && <Icon class="icon" />}
             <span>{name}</span>
             <span class="tooltip">{level}</span>
