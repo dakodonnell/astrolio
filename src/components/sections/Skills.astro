@@ -52,11 +52,11 @@ const SKILLS_ICONS: Record<string, any> = {
         const Icon = SKILLS_ICONS[iconName]
 
         return (
-          <li onclick="void 0">
+          <a class="skill-pill" href="#">
             {Icon && <Icon class="icon" />}
             <span>{name}</span>
             <span class="tooltip">{level}</span>
-          </li>
+          </a>
         )
       })
     }
@@ -70,22 +70,24 @@ const SKILLS_ICONS: Record<string, any> = {
     flex-wrap: wrap;
   }
 
-  li {
-    align-items: center;
-    background: #f4f4f5;
-    border-radius: 6px;
-    color: black;
-    display: flex;
-    font-size: 0.8rem;
-    font-weight: 500;
-    gap: 4px;
-    padding: 0.2rem 0.6rem;
+  .skill-pill {
+    display: inline-flex;
     position: relative;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.75rem;
+    background: #f4f4f5;
+    border-radius: 1rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: inherit;
+    text-decoration: none;
     transition: background-color 0.25s ease, box-shadow 0.25s ease;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: default;
   }
 
-  li:hover {
+  .skill-pill:hover {
     background-color: #e0e0e0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -113,7 +115,7 @@ const SKILLS_ICONS: Record<string, any> = {
     z-index: 10;
   }
 
-  li:hover .tooltip {
+  .skill-pill:hover .tooltip {
     opacity: 1;
   }
 
