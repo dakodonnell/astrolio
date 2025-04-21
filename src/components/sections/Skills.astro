@@ -1,58 +1,18 @@
 ---
 import Section from "../Section.astro"
 import { skills } from "@cv"
-import HTML from "@/icons/html.astro"
-import CSS from "@/icons/css.astro"
-import JavaScript from "@/icons/javascript.astro"
-import TypeScript from "@/icons/type.astro"
-import React from "@/icons/react.astro"
-import Node from "@/icons/node.astro"
-import MySQL from "@/icons/sql.astro"
-import Git from "@/icons/git.astro"
-import GitHub from "@/icons/GitHub.astro"
-import Tailwind from "@/icons/tailwind.astro"
-import Next from "@/icons/next.astro"
-import Swift from "@/icons/swift.astro"
-import SwiftUI from "@/icons/swiftui.astro"
-import Kotlin from "@/icons/kotlin.astro"
-import Flutter from "@/icons/flutter.astro"
-import AstroIcon from "@/icons/astro.astro"
-import Python from "@/icons/python.astro"
-import Julia from "@/icons/julia.astro"
-import Jupyter from "@/icons/jupyter.astro"
-import MATLAB from "@/icons/matlab.astro"
-
-const SKILLS_ICONS: Record<string, any> = {
-  HTML,
-  CSS,
-  JavaScript,
-  TypeScript,
-  React,
-  Node,
-  MySQL,
-  Git,
-  GitHub,
-  Next,
-  Tailwind,
-  Swift,
-  SwiftUI,
-  Kotlin,
-  Flutter,
-  AstroIcon,
-  Astro: AstroIcon,
-  Python,
-  Julia,
-  Jupyter,
-  MATLAB
-}
+import { Icon } from 'astro-icon/components';
+import { getIconName } from "@/data/skill-icon-map"
 ---
 
 <Section title="Skills">
   <ul>
     {
-      skills.map(({ name, level }) => {
-        const iconName = name === "Next.js" ? "Next" : name
-        const Icon = SKILLS_ICONS[iconName]
+      skills.map(({ name, level, keywords = [] }) => {
+        const iconName = getIconName(name);
+        const keywordIcons = !iconName
+          ? keywords.map(getIconName).filter(Boolean)
+          : [];
 
         return (
           <li
@@ -60,7 +20,17 @@ const SKILLS_ICONS: Record<string, any> = {
             tabindex="0"
             onclick="this.classList.add('active'); setTimeout(() => this.classList.remove('active'), 1500)"
           >
-            {Icon && <Icon class="icon" />}
+            {/* Primary icon */}
+            {iconName && <Icon name={iconName} class="icon" />}
+
+            {/* Fallback icons for keywords */}
+            {!iconName && keywordIcons.length > 0 &&
+              keywordIcons.map((icon) => (
+                <Icon name={icon} class="icon" />
+              ))
+            }
+
+            {/* Tooltip with skill name and level */}
             <span>{name}</span>
             {level && <span class="tooltip">{level}</span>}
           </li>

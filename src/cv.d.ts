@@ -1,28 +1,28 @@
 export interface CV {
-  basics: Basics
-  work: Array<Work>
-  volunteer: Array<Volunteer>
-  education: Array<Education>
-  awards: Array<Awards>
-  certificates: Array<Certificates>
-  publications: Array<Publications>
-  skills: Array<Skills>
-  languages: Array<Languages>
-  interests: Array<Interests>
-  references: Array<References>
-  projects: Array<Projects>
+  readonly basics: Basics
+  readonly work: Array<Work>
+  readonly volunteer: Array<Volunteer>
+  readonly education: Array<Education>
+  readonly awards: Array<Awards>
+  readonly certificates: Array<Certificates>
+  readonly publications: Array<Publications>
+  readonly skills: Array<Skills>
+  readonly languages: Array<Languages>
+  readonly interests: Array<Interests>
+  readonly references: Array<References>
+  readonly projects: Array<Projects>
 }
 
 interface Basics {
   name: string
   label: string
-  image: string
+  image?: string
   email: string
   phone: string
-  url: string
-  summary: string
+  url?: string
+  summary?: string
   location: Location
-  profiles: Array<Profiles>
+  profiles?: Array<Profiles>
 }
 
 interface Location {
@@ -44,7 +44,7 @@ interface Work {
   position: string
   url: string
   startDate: DateStr
-  endDate: DateStr | null
+  endDate?: DateStr | null
   summary: string
   highlights: Highlight
 }
@@ -54,9 +54,9 @@ type DateStr = `${string}-${string}-${string}`
 interface Volunteer {
   organization: string
   position: string
-  url: string
+  url?: string | null
   startDate: DateStr
-  endDate: DateStr
+  endDate?: DateStr | null
   summary: string
   highlights: Highlight
 }
@@ -78,7 +78,7 @@ interface Certificates {
   name: string,
   date: DateStr,
   issuer: string,
-  url: string
+  url: string | null
 }
 
 interface Publications {
@@ -95,9 +95,9 @@ interface Education {
   area: string
   studyType: string
   startDate: DateStr
-  endDate: DateStr
-  score: string
-  courses: Array<string>
+  endDate?: DateStr | null
+  score?: string | null
+  courses?: Array<string> | null
 }
 
 interface Languages {
@@ -106,10 +106,10 @@ interface Languages {
 }
 
 type Language =
-  "Spanish"
-  | "English"
+  "English"
+  | "Spanish"
+  | "French"
   | "German"
-  | "France"
   | "Italian"
   | "Korean"
   | "Portuguese"
@@ -125,11 +125,11 @@ type Language =
 
 interface Projects {
   name: string
-  isActive: boolean
+  isActive?: boolean | null
   description: string
   highlights: Highlight
   url: string
-  github?: string
+  github?: string | null
 }
 
 interface Interests {

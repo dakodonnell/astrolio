@@ -5,14 +5,14 @@
     "email": "johndoe@example.com",
     "phone": "+1 234 567 890",
     "url": "https://johndoe.dev",
-    "picture": "/profile.jpg",
+    "image": "/profile.jpg",
     "summary": "Passionate developer with 5+ years of experience in building web applications.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Palo Alto",
       "countryCode": "US",
-      "region": "CA"
+      "region": "California"
     },
     "profiles": [
       {
@@ -24,6 +24,11 @@
         "network": "GitHub",
         "username": "jsonresume",
         "url": "https://github.com/jsonresume"
+      },
+      {
+        "network": "YouTube",
+        "username": "johndoe",
+        "url": "https://youtube.com/johndoe"
       }
     ]
   },
@@ -55,7 +60,7 @@
   ],
   "volunteer": [
     {
-      "name": "Open Source Initiative",
+      "organization": "Open Source Initiative",
       "position": "Contributor",
       "url": "https://opensource.org",
       "startDate": "2021-01-01",
@@ -105,6 +110,21 @@
       "name": "GitHub",
       "level": "Expert",
       "keywords": ["Version Control", "Collaboration"]
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermediate",
+      "keywords": ["Backend", "API Development"]
+    },
+    {
+      "name": "Frontend",
+      "level": "Intermediate",
+      "keywords": ["React", "Svelte", "tailwind"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": ["JavaScript", "Static Typing"]
     }
   ],
   "languages": [
