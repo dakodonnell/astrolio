@@ -1,5 +1,5 @@
 ---
-import GitHub from "@/icons/GitHub.astro"
+import { Icon } from "astro-icon/components"
 import Section from "../Section.astro"
 
 import { projects } from "@cv"
@@ -26,7 +26,7 @@ import { projects } from "@cv"
                         target="_blank"
                         title={`View the source code of the project ${name}`}
                       >
-                        <GitHub />
+                        <Icon name="simple-icons:github" class="icon" />
                       </a>
                     )}
                   </h3>
