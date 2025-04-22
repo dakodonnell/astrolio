@@ -1,5 +1,5 @@
-import { SKILL_ICON_MAP } from './skill-icon-map.js';
-import { PROFILE_ICON_MAP } from './profile-icon-map.js';
+import { SKILL_ICON_MAP } from '../src/data/skill-icons.js';
+import { PROFILE_ICON_MAP } from '../src/data/profile-icons.js';
 
 export function iconFilter() {
   const allIcons = {

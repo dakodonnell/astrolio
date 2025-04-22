@@ -5,6 +5,9 @@ export const PROFILE_ICON_MAP = {
   twitter: 'simple-icons:twitter',
   youtube: 'simple-icons:youtube',
   instagram: 'simple-icons:instagram',
+  spotify: 'simple-icons:spotify',
+  bluesky: 'simple-icons:bluesky',
+  tiktok: 'simple-icons:tiktok'
 }
 
 const ALIASES = {

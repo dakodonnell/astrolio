@@ -3,8 +3,6 @@ import 'hotkeypad/reset.css'
 import 'hotkeypad/index.css'
 import { type SocialIcon } from "@/types"
 import { basics } from "@cv"
-import { Icon } from 'astro-icon/components';
-import { getIconName } from "@/data/profile-icon-map"
 
 const { profiles, url: basicsURL } = basics
 
@@ -90,9 +88,9 @@ profilesInfo.push({
   id: "astrolio-url",
   section: "Tools",
   title: "Create your own portfolio site with Astrolio",
-  url: "https://github.com/dakodonnell/astrolio",
-  icon: SOCIAL_ICONS.GitHub,
-  hotkey: "ctrl+Y"
+  url: "https://astro.build/themes/details/astrolio",
+  icon: `<img src="favicon.png" width="24" height="24" style="margin-right: 8px;" alt="Icon" />`,
+  hotkey: "ctrl+A"
 })
 
 
