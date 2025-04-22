@@ -1,27 +1,15 @@
 ---
-import { basics } from "@cv"
 import Section from "@/components/Section.astro"
-import Mail from "@/icons/Mail.astro"
-import Phone from "@/icons/Phone.astro"
-import X from "@/icons/X.astro"
-import LinkedIn from "@/icons/LinkedIn.astro"
-import GitHub from "@/icons/GitHub.astro"
-import WorldMap from "@/icons/WorldMap.astro"
-import type { SocialIcon } from "@/types"
+import { basics } from "@cv"
+import { Icon } from "astro-icon/components"
+import { getIconName } from "@/data/profile-icons"
 
-const { name, label, picture, location, profiles, phone, email } = basics
-const { city, region } = location
+const { name, label, image, location, profiles, phone, email } = basics
+const { city, region = "" } = location
 
-const SOCIAL_ICONS: SocialIcon = {
-  GitHub,
-  LinkedIn,
-  X,
-}
+const linkedinUrl = profiles.find(({ network }) => network === "LinkedIn")?.url
 
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
-const linkedUrl = linkedInfo?.url
-
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(" • ")
 ---
 
 <Section>
@@ -30,8 +18,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
-        <WorldMap />
-        {city}, {region}
+        <Icon name="globe" />
+        {region ? `${city}, ${region}` : city}
       </span>
       <footer class="print">
         {printInfo}
@@ -45,7 +33,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Mail />
+              <Icon name="mail" />
             </a>
           )
         }
@@ -57,13 +45,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Phone />
+              <Icon name="phone" />
             </a>
           )
         }
         {
           profiles.map(({ network, url }) => {
-            const Icon = SOCIAL_ICONS[network]
+            const iconName = getIconName(network)
 
             return (
               <a
@@ -72,7 +60,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icon />
+                {iconName && <Icon name={iconName} class="icon hero-icon" />}
               </a>
             )
           })
@@ -80,7 +68,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       </footer>
     </div>
     <figure>
-      {picture && <img src={picture} alt={name} />}
+      {image && <img src={image} alt={name} />}
     </figure>
   </div>
 </Section>
@@ -92,6 +80,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+  }
+
+  .hero-icon {
+    width: 250;
+    height: 250;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .info {
@@ -130,7 +125,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 
   footer {
     color: #555;
-    font-size: 0.65rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
