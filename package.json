@@ -8,8 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "check": "check:cv && astro check",
-    "check:cv": "tsx scripts/check-cv.ts"
+    "check": "astro check"
     
   },
   "dependencies": {
