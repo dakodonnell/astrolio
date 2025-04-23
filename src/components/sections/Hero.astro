@@ -1,11 +1,14 @@
 ---
 import Section from "@/components/Section.astro"
-import { basics } from "@cv"
+import { basics as basicsData } from "@cv"
 import { Icon } from "astro-icon/components"
 import { getIconName } from "@/data/profile-icons"
+import type { Basics } from "@/data/cv"
 
-const { name, label, image, location, profiles, phone, email } = basics
-const { city, region = "" } = location
+const basics = basicsData as Basics
+const { name, label, image, profiles = [], phone, email } = basics;
+const city = basics.location?.city ?? "";
+const region = basics.location?.region ?? "";
 
 const linkedinUrl = profiles.find(({ network }) => network === "LinkedIn")?.url
 
@@ -17,10 +20,12 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(" • ")
     <div class="info">
       <h1>{name}</h1>
       <h2>{label}</h2>
-      <span>
-        <Icon name="globe" />
-        {region ? `${city}, ${region}` : city}
-      </span>
+      {city && (
+        <span>
+          <Icon name="globe" />
+          {region ? `${city}, ${region}` : city}
+        </span>
+      )}
       <footer class="print">
         {printInfo}
       </footer>

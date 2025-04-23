@@ -1,7 +1,8 @@
 ---
 import Section from "../Section.astro"
-
-import { basics } from "@cv"
+import { basics as basicsData } from "@cv"
+import type { Basics } from "@/data/cv"
+const basics = basicsData as Basics
 const { summary } = basics
 ---
 

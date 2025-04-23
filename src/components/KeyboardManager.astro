@@ -2,9 +2,9 @@
 import 'hotkeypad/reset.css'
 import 'hotkeypad/index.css'
 import { type SocialIcon } from "@/types"
-import { basics } from "@cv"
-
-const { profiles, url: basicsURL } = basics
+import { basics as basicsData } from "@cv"
+import type { Basics } from "@/data/cv"
+const { profiles = [], url: basicsURL } = basicsData as Basics;
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub: `<svg
@@ -58,19 +58,23 @@ const SOCIAL_ICONS: SocialIcon = {
   `
 }
 
-const profilesInfo = profiles.map(({ network, url }) => {
-  const icon = SOCIAL_ICONS[network] || SOCIAL_ICONS.Website
-  const firstLetter = network[0].toUpperCase()
+const profilesInfo = Array.isArray(profiles)
+  ? profiles.map(({ network, url }) => {
+      if (!network || !url) return null;
 
-  return {
-    id: network,
-    section: "Social",
-    title: `Visit ${network}`,
-    url,
-    icon,
-    hotkey: `ctrl+${firstLetter}`
-  }
-})
+      const icon = SOCIAL_ICONS[network] || SOCIAL_ICONS.Website;
+      const firstLetter = network[0]?.toUpperCase() ?? "U";
+
+      return {
+        id: network,
+        section: "Social",
+        title: `Visit ${network}`,
+        url,
+        icon,
+        hotkey: `ctrl+${firstLetter}`,
+      };
+    }).filter(Boolean) // removes nulls
+  : [];
 
 if (basicsURL) {
   profilesInfo.push({

@@ -1,7 +1,9 @@
 ---
 import Section from "../Section.astro"
 
-import { education } from "@cv"
+import { education as educationData } from "@cv"
+import type { Education } from "@/data/cv"
+const education = educationData as Education[]
 ---
 
 <Section title="Education">

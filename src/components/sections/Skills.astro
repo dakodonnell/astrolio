@@ -1,8 +1,10 @@
 ---
 import Section from "../Section.astro"
-import { skills } from "@cv"
-import { Icon } from 'astro-icon/components';
+import { skills as skillsData } from "@cv"
+import type { Skills } from "@/data/cv"
+import { Icon } from 'astro-icon/components'  
 import { getIconName } from "@/data/skill-icons"
+const skills = skillsData as Skills[]
 ---
 
 <Section title="Skills">

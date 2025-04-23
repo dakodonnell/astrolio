@@ -35,7 +35,7 @@ interface Location {
 }
 
 interface Profiles {
-  network?: string;
+  network: string;
   username?: string;
   url?: string;
 }
@@ -45,7 +45,7 @@ interface Work {
   position: string;
   url?: string;
   startDate: DateStr;
-  endDate?: DateStr | null;
+  endDate?: DateStr;
   summary: string;
   highlights: Highlights;
 }
@@ -55,9 +55,9 @@ interface Volunteer {
   position: string;
   url?: string;
   startDate: DateStr;
-  endDate?: DateStr | null;
+  endDate?: DateStr;
   summary?: string;
-  highlights: Highlights;
+  highlights?: Highlights;
 }
 
 interface Education {
@@ -66,7 +66,7 @@ interface Education {
   area: string;
   studyType?: string;
   startDate: DateStr;
-  endDate?: DateStr | null;
+  endDate?: DateStr;
   score?: string;
   courses?: string[];
 }
@@ -137,12 +137,12 @@ type Languages =
 interface Projects {
   name: string;
   startDate?: DateStr;
-  endDate?: DateStr | null;
+  endDate?: DateStr;
   description?: string;
   highlights?: Highlights;
   url?: string;
   github?: string;
-  isActive?: boolean | null;
+  isActive?: boolean;
 }
 
 type DateStr = `${string}-${string}-${string}`;

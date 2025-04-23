@@ -1,8 +1,9 @@
 ---
 import { Icon } from "astro-icon/components"
 import Section from "../Section.astro"
-
-import { projects } from "@cv"
+import { projects as projectsData } from "@cv"
+import type { Projects } from "@/data/cv"
+const projects = projectsData as Projects[]
 ---
 
 <Section title="Projects">

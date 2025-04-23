@@ -1,5 +1,6 @@
 ---
-import { basics } from "@cv"
+import type { Basics } from "@/data/cv"
+import { basics as basicsData } from "@cv"
 
 interface Props {
   title: string
@@ -7,7 +8,7 @@ interface Props {
 
 const { title } = Astro.props
 
-const { image, summary, url } = basics
+const { image, summary, url="" } = basicsData as Basics
 ---
 
 <!doctype html>

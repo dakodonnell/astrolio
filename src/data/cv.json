@@ -4,7 +4,7 @@
     "label": "Software Engineer",
     "email": "johndoe@example.com",
     "phone": "+1 234 567 890",
-    "url": "https://johndoe.dev",
+
     "image": "/profile.jpg",
     "summary": "Passionate developer with 5+ years of experience in building web applications.",
     "location": {
@@ -38,7 +38,6 @@
       "position": "Senior Developer",
       "url": "https://techcompany.com",
       "startDate": "2020-06-01",
-      "endDate": null,
       "summary": "Developing full-stack applications using JavaScript, React, and Node.js."
     },
     {
@@ -64,7 +63,6 @@
       "position": "Contributor",
       "url": "https://opensource.org",
       "startDate": "2021-01-01",
-      "endDate": null,
       "summary": "Contributing to open-source projects and helping maintain documentation."
     }
   ],
