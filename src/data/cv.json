@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "theme": "professional"
+  },
   "basics": {
     "name": "John Doe",
     "label": "Software Engineer",
