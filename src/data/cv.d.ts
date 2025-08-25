@@ -16,7 +16,7 @@ export interface CV {
 
 interface Basics {
   name: string;
-  label:? string;
+  label?: string;
   image?: string;
   email?: string;
   phone?: string;
@@ -104,7 +104,7 @@ interface Languages {
   fluency?: string;
 }
 
-type Languages =
+type Language =
   "English"
   | "Spanish"
   | "French"
