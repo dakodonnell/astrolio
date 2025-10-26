@@ -28,7 +28,7 @@
 <div align="center">
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ea2e615a-b6e1-4236-b4dc-dec650170388/deploy-status)](https://app.netlify.com/sites/astrolio/deploys)
-![Astro Version](https://img.shields.io/badge/astro-5.7.x-blueviolet?logo=astro)
+![Astro Version](https://img.shields.io/badge/astro-5.15.x-blueviolet?logo=astro)
 ![GitHub stars](https://img.shields.io/github/stars/dakodonnell/astrolio)
 ![GitHub forks](https://img.shields.io/github/forks/dakodonnell/astrolio)
 ![GitHub issues](https://img.shields.io/github/issues/dakodonnell/astrolio)
