@@ -102,13 +102,11 @@ Quickly use it to:
 - Navigate to any **project, publication, or website link** from the resume
 - Jump to the **Astrolio template** page to create your own portfolio
 
-Hotkeys match each action for instant access  
 
-![Command menu demo](cmdmenu-demo.png)
 
 |      |       |
 |------|-------|
-| Relevant links are automatically added to the site command palette, accessed with `cmd+k`| ![Command menu demo](cmdmenu-demo.png) |
+| Hotkeys match each action for instant access | ![Command menu demo](cmdmenu-demo.png) |
 
 ## 🔑 License
 
