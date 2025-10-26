@@ -1,7 +1,7 @@
 <div align="center">
 <img src="astrolio-logo.png" height="90px" width="auto" />
 <h1>
-    ASTROLIO: A responsive one-page portfolio template
+    ASTROLIO: A one-page portfolio template
 </h1>
 </div>
 
@@ -11,7 +11,7 @@
     </a>
     <span>&nbsp;✦&nbsp;</span>
     <a href="#-site-commands">
-        🧞 Site Commands
+        🪄 Command Palette
     </a>
     <span>&nbsp;✦&nbsp;</span>
     <a href="#-license">
@@ -38,13 +38,6 @@
 
 <img src="astrolio-demo.png"></img>
 
-## 🛠️ Stack
-
-- [**Astro**](https://astro.build/) - Web framework
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with typed syntax
-- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Drop-down menu with keyboard shortcuts made in pure Javascript
-
-
 ## 🚀 Get Started
 
 ### 0. Ensure you have the proper dev tools:
@@ -70,17 +63,16 @@ npm create astro@latest -- --template dakodonnell/astrolio
 - Or, simply [clone](https://github.com/new?template_name=astrolio&template_owner=dakodonnell) as a template from Github
 
 ### 2. Add your content:
-Add your Portfolio/CV to the template
-- The file for the printable Portfolio/CV must be named `cv.json` and located in the `src` folder
-- The file `cv.json` must follow the JSON Resume [schema](https://jsonresume.org/schema). More information can be found at https://jsonresume.org/
-- A sample JSON resume used in the demo is provided in the template repo, which can be edited for your use, or replaced by your own JSON resume
-- JSON resumes can be built with the official registry [editor](https://registry.jsonresume.org/editor), but this [toolkit](https://jsoncv.reorx.com) works pretty well too
+Add your portfolio content:
 
-(Helpful tip: Add _isActive_ and _GitHub_ attributes to your projects section in your JSON Resume.)
-```
-"isActive": true,
-"GitHub": "https://github.com/GitHubUsername/GitHubRepo"
-```
+- Place your CV file as `src/cv.json`  
+- Must follow the JSON Resume [schema](https://jsonresume.org/schema)  
+- Sample CV is included for demo or editing  
+- Optional attributes for projects:
+  ```json
+  "isActive": true,
+  "GitHub": "https://github.com/GitHubUsername/GitHubRepo"
+
 
 ### 3. Launch the development server:
 
@@ -101,9 +93,18 @@ Connect your portfolio repo to a platform that deploys static web applications (
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dakodonnell/astrolio) [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdakodonnell%2Fastrolio)
 
-## 🧞 Site Commands
+## 🪄 Command Palette
+The Command Palette is a quick-access menu for portfolio actions, accessible via a hotkey on PC (`Cmd+K` / `Ctrl+K`) or a button on mobile.
 
-You can print or save your portolio to PDF by accessing site command palette, which also contains social media and website links from your JSON resume. The menu hotkeys automatically match their respective links.
+Quickly use it to:
+
+- Export your portfolio as a **PDF**
+- Navigate to any **project, publication, or website link** from the resume
+- Jump to the **Astrolio template** page to create your own portfolio
+
+Hotkeys match each action for instant access  
+
+![Command menu demo](cmdmenu-demo.png)
 
 |      |       |
 |------|-------|
@@ -115,7 +116,7 @@ You can print or save your portolio to PDF by accessing site command palette, wh
 
 ## 🫂 Special Thanks
 
-- Melissa Turner, for her feedback and for being a delight
+- My wife Melissa, for her feedback and for being a delight
 
 - [Bartosz Jarocki](https://github.com/BartoszJarocki/cv), for inspiring the project
 
